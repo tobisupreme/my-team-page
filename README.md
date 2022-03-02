@@ -40,7 +40,7 @@ devchallenges.io
 
 ## Overview
 
-![screenshot](https://i.ibb.co/gRrtMwC/image.png)
+![screenshot](https://i.ibb.co/bdV19MH/image.png)
 
 - Click [here](https://amazing-jones-c8b9b7.netlify.app) to see a demo.
 
