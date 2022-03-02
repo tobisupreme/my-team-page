@@ -1,0 +1,170 @@
+/* Resets */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Layout */
+.header,
+.container,
+.staff-info {
+  display: flex;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+  border-radius: 8px;
+  padding: 0 16.6666%;
+  align-items: center;
+  background: #fafafa;
+  flex-direction: column;
+  justify-content: center;
+}
+/* --------------------------- */
+
+/* Header */
+.page-title {
+  color: #000000;
+  letter-spacing: -0.045em;
+  font: normal bold 36px/48px "PT Serif", sans-serif;
+}
+.about-team > h3 {
+  color: #000000;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font: normal 600 18px/27px "Poppins", sans-serif;
+}
+.about-team > p {
+  min-width: 430px;
+  color: #000000;
+  font: normal 400 18px/27px "Poppins", sans-serif;
+}
+.header {
+  margin: 110px 0 96px;
+  justify-content: space-between;
+}
+.about-team {
+  flex-basis: 48%;
+}
+/* ------------------------ */
+
+/* Staff Info */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.staff-info {
+  width: 85%;
+  align-self: center;
+  justify-self: center;
+}
+
+footer {
+  text-align: center;
+}
+/* ------------------------ */
+
+/* Photo section */
+.pic {
+  padding: 0 10px 15px 0;
+}
+.staff-2,
+.staff-5 {
+  margin-top: 99px;
+}
+.staff-name {
+  color: #000000;
+  font: normal 600 18px/27px "Poppins", sans-serif;
+}
+.staff-role {
+  color: #000000;
+  text-transform: uppercase;
+
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+
+  font: normal 400 12px/15.9px "PT Serif", sans-serif;
+}
+/* ------------------------ */
+
+/* Footer styling */
+footer {
+  text-align: center;
+  font: normal 500 14px/17.07px "Montserrat", sans-serif;
+  margin: 115px 0 24px 0;
+}
+footer a,
+footer {
+  color: #a9a9a9;
+}
+footer span {
+  text-decoration: none;
+}
+.devchallenge-link {
+  text-decoration: none;
+}
+/* ------------------------ */
+
+/* Smaller PC Screens */
+@media all and (max-width: 1094px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .about-team > p {
+    min-width: fit-content;
+  }
+  .page-title {
+    margin: 71px 0 38px 0;
+  }
+  .header {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .about-team > p {
+    min-width: fit-content;
+    padding-right: 15%;
+    font: normal 400 14px/21px "Poppins", sans-serif;
+  }
+}
+/* ------------------------ */
+
+/* Mobile */
+@media all and (max-width: 569px) {
+  .page-title {
+    margin: 71px 0 38px 0;
+  }
+  .header {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .about-team > p {
+    min-width: fit-content;
+    padding-right: 15%;
+    font: normal 400 14px/21px "Poppins", sans-serif;
+  }
+  .container {
+    min-width: 375px;
+    padding: 0 5%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .staff-2,
+  .staff-4,
+  .staff-6 {
+    margin-top: 50px;
+  }
+  .staff-5 {
+    margin: 0;
+  }
+}
+/* ------------------------ */
