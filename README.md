@@ -1,9 +1,3 @@
-# Team Page
-
-devchallenges.io
-
-<!-- Please update value in the {}  -->
-
 <h1 align="center">my-team-page</h1>
 
 <div align="center">
@@ -26,23 +20,13 @@ devchallenges.io
   </h3>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
-
-- [Overview](#overview)
-  - [Built With](#built-with)
-- [Features](#features)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
-
 <!-- OVERVIEW -->
 
 ## Overview
 
-![screenshot](https://i.ibb.co/bdV19MH/image.png)
+![screenshot](https://i.ibb.co/bdV19MH/image.png )
 
-- Click [here](https://amazing-jones-c8b9b7.netlify.app) to see a demo.
+- Click [here](https://amazing-jones-c8b9b7.netlify.app) to see the demo.
 
 ### Built With
 
@@ -56,14 +40,6 @@ devchallenges.io
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
